@@ -1,18 +1,99 @@
 body {
     background-color: rgb(255, 243, 214);
+    margin: 40px;
 }
 
-nav{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-}
-
-li{
-    list-style: none;
-}
-
-a{
+a {
     text-decoration: none;
     color: #EE7F56;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+
+.nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+.list-item {
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.nav__list-icon {
+    padding-right: 30px;
+}
+
+.nav__list-item {
+    padding-right: 70px;
+}
+
+.nav__logo {
+    width: 60%;
+    margin: 20px 0 0 40px;
+}
+
+.twins{
+    width: 37%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extra-padding{
+    padding-bottom: 100px;
+}
+
+.starter-text {
+    width: 30%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-title {
+    font-family: 'Caveat', cursive;
+    color: #30AFFF;
+    font-size: 3em;
+}
+
+.big-title--yellow{
+    color: #F9B916;
+}
+
+.intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737373;
+}
+
+.background_white{
+    background-color: white;
+}
+
+.avatar{
+    width: 30%;
+}
+
+.background_ocean{
+    background-image: url("images/blue-bg.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

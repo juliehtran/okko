@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
   <title>OKKO Adventures</title>
 </head>
 
@@ -14,20 +17,101 @@
 
 </header>
 
-<a class="logo" href="#home" title="okko-logo">
-  <img src="images/logo.png" alt="okko-logo">
-</a>
+<nav id="menu" class="nav">
+  <div>
+    <a href="#home" title="okko-logo">
+      <img class="nav__logo" src="images/logo.png" alt="okko-logo">
+    </a>
+  </div>
 
-<nav id="menu">
+  <ul class="spacing">
+    <li class="list-item nav__list-item"><a href="#home">Home</a></li>
+    <li class="list-item nav__list-item"><a href="#about">About Us</a></li>
+    <li class="list-item nav__list-item"><a href="#adventures">Adventures</a></li>
+    <li class="list-item nav__list-item"><a href="#tours">Walking Tours</a></li>
+  </ul>
+
   <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#adventures">Adventures</a></li>
-    <li><a href="#tours">Walking Tours</a></li>
+    <li class="list-item nav__list-icon"><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+    <li class="list-item nav__list-icon"><a href="https://www.youtube.com/channel/UCUwsgtUDzU2Wx6bJzIQBWMw"><i class="fab fa-youtube"></i></a></li>
+    <li class="list-item nav__list-icon"><a href="https://www.instagram.com/ok_ko_twin/"><i class="fab fa-instagram"></i></a></li>
   </ul>
 </nav>
 
 <body>
+  <!-------------------------- landing page --------------------------->
+
+  <div class="container extra-padding">
+    <section class="starter-text">
+      <div>
+        <span class="big-title">
+          Double the adventure
+        </span>
+      </div>
+
+      <div>
+        <p class="intro">
+          with Kira and Olivia, a pair of German-American twins pursuing life, laughs, and knowledge all over the world.
+        </p>
+      </div>
+    </section>
+
+    <img class="twins" src="images/twins.png" alt="twins">
+  </div>
+
+  <!------------------------------ about --------------------------->
+  
+  <section id="about" class="background_white">
+
+  <div class="container">
+    <img class="avatar" src="images/olivia.png" alt="olivia">
+    <section class="starter-text">
+      <div>
+        <span class="big-title big-title--yellow">
+          Olivia Finan
+        </span>
+      </div>
+
+      <div>
+        <p class="intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.        </span>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <div class="container extra-padding">
+    <section class="starter-text">
+      <div>
+        <span class="big-title">
+        Kira Finan
+        </span>
+      </div>
+
+      <div>
+        <p class="intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.        </p>
+      </div>
+    </section>
+    <img class="avatar" src="images/kira.png" alt="kira">
+</section>
+
+<!------------------------------ adventures --------------------------->
+<section id="adventures" class="background_ocean">
+  <div>
+    <!-- <p>
+      Hi everyone!
+
+We are twins from Germany and the United States. Currently, we are studying for our Master's degrees here in Nuremberg. We started our Youtube channel this year 2021. Our posts include educational (and entertaining) videos about studying and living in Germany. Also, we are avid travelers and we love to share our adventures with you! 
+
+Tune in on Tuesdays and Fridays for new content, and don’t forget to Like and Subscribe for more adventures! Check out our Instagram for more behind the scenes and extras: okko.adventures
+
+Cheers,
+
+O & K 
+    </p> -->
+  </div>
+</section>
 
 </body>
 
