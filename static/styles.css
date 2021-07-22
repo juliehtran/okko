@@ -43,17 +43,17 @@ ul {
     margin: 20px 0 0 40px;
 }
 
-.twins{
+.twins {
     width: 37%;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.extra-padding{
+.extra-padding {
     padding-bottom: 100px;
 }
 
@@ -72,11 +72,11 @@ ul {
     font-size: 3em;
 }
 
-.big-title--yellow{
+.big-title--yellow {
     color: #F9B916;
 }
 
-.big-title--white{
+.big-title--white {
     font-family: 'Caveat', cursive;
     font-size: 3em;
     color: white;
@@ -89,28 +89,33 @@ ul {
     color: #737373;
 }
 
-.background_white{
+.background--white {
     background-color: white;
 }
 
-.avatar{
+.avatar {
     width: 30%;
 }
 
-.background_ocean{
-    background-image: linear-gradient(#0484FF,#0195FF,#1BA5FD, #43B9FF, #7FE0FE, #B1EFFF);
+.background--ocean {
+    background-image: linear-gradient(#0484FF, #0195FF, #1BA5FD, #43B9FF, #7FE0FE, #B1EFFF);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.youtube-description-contianer{
+
+.youtube-description-contianer {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.youtube-description{
+
+.light-text {
     color: white;
     font-family: 'Caveat', cursive;
+}
+
+.youtube-description {
     font-size: 1.5em;
     line-height: 35px;
     width: 50%;
@@ -118,15 +123,16 @@ ul {
     margin-right: auto;
 }
 
-.youtube-description-title{
-    color: white;
-    font-family: 'Caveat', cursive;
+.youtube-description-title {
     font-size: 3em;
     margin-top: 100px;
 }
 
-.youtube-vids{
+.youtube-vids {
     background-color: white;
-    height: 700px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
 }
