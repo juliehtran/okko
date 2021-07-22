@@ -87,6 +87,7 @@ ul {
     font-weight: 500;
     font-size: 25px;
     color: #737373;
+    line-height: 30px;
 }
 
 .background--white {
@@ -116,7 +117,7 @@ ul {
 }
 
 .youtube-description {
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 35px;
     width: 50%;
     margin-left: auto;
@@ -136,3 +137,16 @@ ul {
     flex-direction: column;
     padding: 50px 0;
 }
+
+.video-padding{
+    padding: 20px;
+}
+
+.wide{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px;
+}
+
