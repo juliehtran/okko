@@ -150,3 +150,20 @@ ul {
     padding: 30px 30px;
 }
 
+.walking-tour-bg{
+    background-color:#FF7948;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.town{
+    width: 100%;
+    align-self: flex-end;
+    margin-top: 275px;
+}
+
+.grey-bg{
+    background-color: rgb(143, 143, 143);
+    height: 100px;
+}
