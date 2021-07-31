@@ -138,11 +138,11 @@ ul {
     padding: 50px 0;
 }
 
-.video-padding{
+.video-padding {
     padding: 20px;
 }
 
-.wide{
+.wide {
     width: 40%;
     display: flex;
     text-align: center;
@@ -150,20 +150,21 @@ ul {
     padding: 30px 30px;
 }
 
-.walking-tour-bg{
-    background-color:#FF7948;
+.walking-tour-bg {
+    background-color: #FF7948;
     height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    align-items: center;
 }
 
-.town{
-    width: 100%;
-    align-self: flex-end;
-    margin-top: 275px;
+.town {
+    width: 1900px;
 }
 
-.grey-bg{
+.grey-bg {
     background-color: rgb(143, 143, 143);
     height: 100px;
 }
