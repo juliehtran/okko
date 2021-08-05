@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>OKKO Adventures</title>
 </head>
 
@@ -58,17 +59,17 @@
       </div>
     </section>
     <img class="landing--image" src="images/white-blob.svg" alt="blob">
-    <img class="twins landing--image" src="images/twins.svg" alt="twins">
+    <img class="twins landing--image" data-aos="ease-in-out-quad" src="images/twins.svg" alt="twins">
   </div>
 
   <!------------------------------ about --------------------------->
 
   <section id="about" class="background--white">
 
-    <div class="row">
+    <div class="row" data-aos="fade-in">
       <img class="avatar" src="images/olivia.png" alt="olivia">
       <section class="starter-text">
-        <div>
+        <div data-aos="fade-in">
           <span class="big-title big-title--yellow">
             Olivia Finan
           </span>
@@ -83,9 +84,9 @@
       </section>
     </div>
 
-    <div class="row extra-padding">
+    <div class="row extra-padding" data-aos="fade-in">
       <section class="starter-text">
-        <div>
+        <div data-aos="fade-in">
           <span class="big-title">
             Kira Finan
           </span>
@@ -112,7 +113,7 @@
           Hi Everyone!
         </span>
       </div>
-      
+
       <p class="youtube-description">
         We are twins from Germany and the United States. Currently, we are studying for our Master's degrees here in
         Nuremberg. We started our Youtube channel this year 2021. Our posts include educational (and entertaining)
@@ -134,38 +135,73 @@
   <section class="youtube-vids">
     <div>
       <span class="big-title">
-      Day in the Life of Twins      
+        Day in the Life of Twins
       </span>
-    </div>  
+    </div>
 
     <div>
       <p class="intro wide">
-      Tune in on Tuesdays and Fridays for new content, and don’t forget to Like and Subscribe for more adventures!
-      Check out our Instagram for more behind the scenes and extras: okko.adventures
+        Tune in on Tuesdays and Fridays for new content, and don’t forget to Like and Subscribe for more adventures!
+        Check out our Instagram for more behind the scenes and extras: okko.adventures
       <p>
     </div>
 
     <div>
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/r5LdPzqbzq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Koxd33A1aeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Nzk1To4SIlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="extra-padding">
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/1pUGsrvxUqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Q6J5ZXtqBQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/ojSm-gDdCHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/r5LdPzqbzq8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Koxd33A1aeg"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Nzk1To4SIlY"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="extra-padding">
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/1pUGsrvxUqk"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/Q6J5ZXtqBQA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe class="video-padding" width="350" height="215" src="https://www.youtube.com/embed/ojSm-gDdCHU"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
   </section>
 
   <!------------------------------ walking tours --------------------------->
 
   <section class="walking-tour-bg">
-    <img class="town" src="images/town.png" alt="town">
+    <div class="tour-dets">
+      <div class="big-title--white">
+        Walking Tour, Anyone?
+      </div>
+      
+      <br>
+      <div class="intro intro--white">
+        OKKO Adventures is interested in providing guided tours of well-known land marks in Nuremburg, Germany! The tour
+        is free and includes locations between cathedrals, canals, historical walkways, and more! It would be a 1 hour walk and starting at 1:00 pm every Friday and Saturday. 
+        <br>
+        Currently, we are completing our masters degree and plan to return to this endeavor someday.
+      </div>
+    </div>
+
+    <img class="town" src="images/town.svg" alt="town">
   </section>
   <!-- ------------------------------------------------------------------ -->
   <footer class="grey-bg">
 
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
-
-
