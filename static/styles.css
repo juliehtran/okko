@@ -125,7 +125,7 @@ ul {
     line-height: 30px;
 }
 
-.intro--white{
+.intro--white {
     color: white;
     font-size: 1.2em;
     width: 40%;
@@ -136,7 +136,7 @@ ul {
     background-color: white;
 }
 
-.tour-dets{
+.tour-dets {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +152,58 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
+    position: relative;
+}
+
+.floating {
+    position: absolute;
+}
+
+.right-float {
+    right: 7%;
+    animation: right-float 6s ease-in-out 1s infinite;
+}
+
+@keyframes right-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(6px, 20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.left-float {
+    left: 8%;
+    animation: left-float 6s ease-in-out infinite;
+}
+
+@keyframes left-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(8px, 22px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.birds{
+    animation: birds 11s ease-in-out infinite;
+}
+
+@keyframes birds {
+    0% {
+        transform: translate(-400%, 100%);
+    }
+    100% {
+        transform: translate(1000%, -100%);
+    }
 }
 
 .youtube-description-contianer {
