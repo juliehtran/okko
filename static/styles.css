@@ -17,6 +17,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     padding-right: 30px;
+    margin:0;
 }
 
 .nav {
@@ -32,6 +33,11 @@ ul {
     list-style: none;
     text-transform: uppercase;
     padding-right: 30px;
+}
+
+.footer-list a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .nav__list-icon {
@@ -305,4 +311,16 @@ ul {
 .grey-bg {
     background-color: rgb(143, 143, 143);
     height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.white-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
