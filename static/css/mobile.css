@@ -1,25 +1,21 @@
 @media screen and (max-width: 901px) {
-    .landing {
-        height: 800px;
-        flex-direction: column;
-        align-items: center;
-    }
+  .landing {
+    height: 800px;
+    flex-direction: column;
+    align-items: center; }
 
-    .landing--image {
-        position: absolute;
-        z-index: -1;
-    }
+  .landing--image {
+    position: absolute;
+    z-index: -1; }
 
-    .blob {
-        width: 100%;
-    }
+  .blob {
+    width: 100%; }
 
-    .twins {
-        position: static;
-        width: 70%;
-    }
-    
-    .starter-text {
-        width: 80%;
-    }
-}
+  .twins {
+    position: static;
+    width: 70%; }
+
+  .starter-text {
+    width: 80%; } }
+
+/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,324 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 243, 214);
+}
+
+a {
+    text-decoration: none;
+    color: #ee7f56;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.nav {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+.list-item {
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.footer-list a {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav__list-icon {
+    padding-right: 30px;
+}
+
+.nav__list-item {
+    padding-right: 70px;
+}
+
+.nav__logo {
+    width: 60%;
+    margin: 20px 0 0 40px;
+}
+
+.landing--image {
+    width: 37%;
+}
+
+.landing {
+    position: relative;
+}
+
+.twins {
+    animation: drive_in 2s forwards;
+    -webkit-animation: drive_in 2s forwards;
+    position: absolute;
+}
+
+@-webkit-keyframes drive_in {
+    from {
+        opacity: 0;
+        top: 100%;
+    }
+    to {
+        opacity: 1;
+        top: 0%;
+    }
+}
+
+@keyframes drive_in {
+    from {
+        right: -40%;
+    }
+    to {
+        right: 16%;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extra-padding {
+    padding-bottom: 100px;
+}
+
+.starter-text {
+    width: 30%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-title {
+    font-family: "Caveat", cursive;
+    color: #30afff;
+    font-size: 3em;
+}
+
+.big-title--yellow {
+    color: #f9b916;
+}
+
+.big-title--white {
+    width: 40%;
+    font-family: "Caveat", cursive;
+    font-size: 3em;
+    color: white;
+}
+
+.intro {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737373;
+    line-height: 30px;
+}
+
+.intro--white {
+    color: white;
+    font-size: 1.2em;
+    width: 40%;
+    letter-spacing: 0.7px;
+}
+
+.background--white {
+    background-color: white;
+}
+
+.tour-dets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 30%;
+}
+
+.background--ocean {
+    background-image: linear-gradient(#0484ff, #0195ff, #1ba5fd, #43b9ff, #7fe0fe, #b1efff);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.floating {
+    position: absolute;
+}
+
+.right-float {
+    right: 7%;
+    animation: right-float 6s ease-in-out 1s infinite;
+}
+
+@-webkit-keyframes right-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(6px, 20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes right-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(6px, 20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.left-float {
+    left: 8%;
+    animation: left-float 6s ease-in-out infinite;
+}
+
+@-webkit-keyframes left-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(8px, 22px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes left-float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(8px, 22px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.birds {
+    animation: birds 11s ease-in-out infinite;
+}
+
+@-webkit-keyframes birds {
+    0% {
+        transform: translate(-400%, 100%);
+    }
+    100% {
+        transform: translate(1000%, -100%);
+    }
+}
+
+@keyframes birds {
+    0% {
+        transform: translate(-400%, 100%);
+    }
+    100% {
+        transform: translate(1000%, -100%);
+    }
+}
+
+.youtube-description-contianer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.light-text {
+    color: white;
+    font-family: "Caveat", cursive;
+}
+
+.youtube-description {
+    font-size: 1.7em;
+    line-height: 35px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youtube-description-title {
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+.inline-links {
+    display: inline;
+}
+
+.youtube-vids {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.video-padding {
+    padding: 20px;
+}
+
+.wide {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px;
+}
+
+.walking-tour-bg {
+    background-color: #ff7948;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    align-items: center;
+}
+
+.town {
+    width: 1900px;
+}
+
+.grey-bg {
+    background-color: rgb(143, 143, 143);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white-text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
