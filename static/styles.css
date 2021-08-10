@@ -17,7 +17,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     padding-right: 30px;
-    margin:0;
+    margin: 0;
 }
 
 .nav {
@@ -35,7 +35,7 @@ ul {
     padding-right: 30px;
 }
 
-.footer-list a{
+.footer-list a {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -159,6 +159,7 @@ ul {
     background-size: cover;
     padding-top: 50px;
     position: relative;
+    overflow: hidden;
 }
 
 .floating {
@@ -236,7 +237,6 @@ ul {
     }
 }
 
-
 @keyframes birds {
     0% {
         transform: translate(-400%, 100%);
@@ -270,7 +270,7 @@ ul {
     margin-top: 100px;
 }
 
-.inline-links{
+.inline-links {
     display: inline;
 }
 
@@ -317,9 +317,9 @@ ul {
     justify-content: center;
 }
 
-.white-text{
+.white-text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white;
+    color: white;
     letter-spacing: 1px;
     padding-top: 30px;
 }
