@@ -1,6 +1,6 @@
 @media screen and (max-width: 901px) {
   .landing {
-    height: 800px;
+    height: 700px;
     flex-direction: column;
     align-items: center; }
 
@@ -13,7 +13,7 @@
 
   .twins {
     position: static;
-    width: 70%; }
+    width: 100%; }
 
   .starter-text {
     width: 80%; }
@@ -25,13 +25,21 @@
     display: flex; }
 
   .logo {
-    width: 50%; }
+    width: 50%;
+    margin: 0; }
 
   .hamburger {
     align-self: center;
     width: 5.5em;
     height: 4.5em;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat;
+    margin: 25px 10px 0 0; }
+
+  .big-title {
+    line-height: 1em; }
+
+  .intro {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=mobile.css.map */
