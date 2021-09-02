@@ -64,6 +64,7 @@ ul {
     animation: drive_in 2s forwards;
     -webkit-animation: drive_in 2s forwards;
     position: absolute;
+    top: 0.5em;
 }
 
 @-webkit-keyframes drive_in {
@@ -92,8 +93,8 @@ ul {
     justify-content: center;
 }
 
-.extra-padding {
-    padding-bottom: 100px;
+.section {
+    padding: 4em;
 }
 
 .starter-text {
