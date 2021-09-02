@@ -16,7 +16,7 @@
 
   .twins {
     position: static;
-    width: 100%; }
+    width: 100vw; }
 
   .starter-text {
     width: 80%; }
@@ -53,6 +53,9 @@
     display: block; }
 
   .background--white {
-    padding-top: 35px; } }
+    padding-top: 35px; }
+
+  .section {
+    padding: 2em; } }
 
 /*# sourceMappingURL=mobile.css.map */

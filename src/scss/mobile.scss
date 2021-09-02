@@ -19,7 +19,7 @@
 
     .twins {
         position: static;
-        width: 100%;
+        width: 100vw;
     }
 
     .starter-text {
@@ -66,5 +66,9 @@
 
     .background--white {
         padding-top: 35px;
+    }
+
+    .section {
+        padding: 2em;
     }
 }
