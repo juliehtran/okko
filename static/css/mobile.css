@@ -48,8 +48,7 @@
 
   .row {
     display: flex;
-    justify-content: center;
-    margin: 20px 20px 0 20px; }
+    justify-content: center; }
 
   .mobile-block img {
     display: block; }
